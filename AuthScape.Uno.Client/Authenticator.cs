@@ -11,7 +11,7 @@ namespace AuthScape.Uno.Client
     {
         public static async Task Authenticate()
         {
-            var uri = new Uri("https://10.0.2.2:44303/Identity/Account/Login?ReturnUrl=%2FIdentity%2FAccount%2FManage%2Findex");
+            var uri = new Uri("https://10.0.2.2/Identity/Account/Login?ReturnUrl=%2FIdentity%2FAccount%2FManage%2Findex");
             await Launcher.LaunchUriAsync(uri);
         }
 
